@@ -1,0 +1,234 @@
+#website-page {
+    width: 100%;
+    height: 1485px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #first-part {
+    width: 100%;
+    height: 450px;
+    background-color: #1F2937;
+  }
+  
+  .Header-links {
+    text-align: center;
+    transform: translate(+55%, -110%);
+    display : flex;
+    gap: 25px; 
+    font-family: sans-serif;
+    color: white;
+    opacity: 0.6;
+  }
+  
+  #first-part h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    transform: translate(+18%);
+    font-family: sans-serif;
+  }
+  
+  .text-part {
+    width: 450px;
+    height: 150px;
+    flex: 1;
+    transform: translate(+60%, +5%);
+  }
+  
+  .text-part button:hover {
+    cursor: pointer;
+    background-color: #3A9EF5;
+  }
+  
+  .text-part h2 {
+    font-size: 48px;
+    transform: translate(0%, -40%);
+    color: #F9FAF8;
+    font-family: sans-serif;
+  }
+  
+  .text-part h4 {
+    font-size: 18px;
+    transform: translate(0%, -130%);
+    color: #E5E7EB;
+    font-family: sans-serif;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  .text-part button {
+    transform: translate(10%, -320%) scale(1.2);
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .image-part {
+    width: 450px;
+    height:230px;
+    display: flex;
+    transform: translate(+160%, -90%); 
+  }
+  
+  .image-part img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  #second-part {
+    width: 100%;
+    height: 350px;
+    transform: translate(0%, -30%)
+  }
+  
+  #second-part h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    font-family: sans-serif;
+  }
+
+  #second-part .test1 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    transform: translate(+450%, +10%);
+  }
+
+  #second-part .test1 h4 {
+    transform: translate(+0%, +135%);
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(100, 98, 98);
+  }
+
+  #second-part .test2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    transform: translate(+600%, -90%);
+  }
+
+  #second-part .test2 h4 {
+    transform: translate(+0%, +135%);
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(100, 98, 98);
+  }
+
+
+  #second-part .test3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    transform: translate(+750%, -190%);
+  }
+
+  #second-part .test3 h4 {
+    transform: translate(+0%, +135%);
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(100, 98, 98);
+  }
+
+  #second-part .test4 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    transform: translate(+900%, -290%);
+  }
+
+  #second-part .test4 h4 {
+    transform: translate(+0%, +135%);
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(100, 98, 98);
+  }
+
+  
+  #third-part {
+    width: 100%;
+    height: 350px;
+    transform: translate(0%, -30%);
+    background-color: #E5E7EB;
+  }
+  
+  #third-part h2 {
+    text-align: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    transform: translate(0%, +55%);
+  }
+  
+  #third-part h4 {
+    text-align: right;
+    font-weight: bold;
+    transform: translate(-25%, +195%);
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  #last-part {
+    width: 100%;
+    height:250px;
+    transform: translate(0%, -42%);
+  }
+  
+  #last-part .box {
+    width: 980px;
+    height: 130px;
+    border-radius: 10px;
+    transform: translate(+25%, +40%);
+    background-color: #3882F6;
+    
+  }
+  
+  #last-part .box h2  {
+    transform: translate(+15%, +150%);
+    color: white;
+  }
+  
+  #last-part .box h4 {
+    transform: translate(+15%, +100%);
+    color: white;
+    opacity: 0.8;
+  }
+  
+  #last-part .box button {
+    width: 105px;
+    height: 30px;
+    transform: translate(+750%, -100%);
+    border-color: white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+  }
+  
+  #one-more {
+    width: 100%;
+    height: 70px;
+    border: solid black;
+    transform: translate(0%, -150%);
+    background-color: #1F2937;
+  }
+  
+  #one-more h5 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #last-part .box button:hover {
+    cursor: pointer;
+    background-color: #3A9EF5;
+  }
+
